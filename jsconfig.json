@@ -1,0 +1,6 @@
+// To stop vetur warning when opening VSC
+{
+  "include": [
+    "./src/**/*"
+  ]
+}
