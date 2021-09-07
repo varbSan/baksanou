@@ -1,11 +1,13 @@
 <template>
-  <section class="bg-pine-green" id="about">
+  <span class="anchor" id="about"></span>
+  <section class="bg-pine-green">
     <div class="spacer-2 stacked-waves"></div>
     <About/>
   </section>
+  
   <div class="spacer layer1"></div>
-
-  <section id="projects">
+  <span class="anchor" id="projects"></span>
+  <section>
     Projects Component:<br />
     - Slider<br />
     - Project picture<br />
@@ -19,26 +21,31 @@
   </section>
 
   <div class="spacer layer2"></div>
-  <section class="bg-pine-green" id="skills">
+  <span class="anchor" id="skills"></span>
+  <section class="bg-pine-green">
     <Skills/>
   </section>
+  
   <div class="spacer layer3"></div>
-
-  <section id="contact">
-    Contact Component:<br />
-    - LinkedIn<br />
-    - Twitter<br />
+  <span class="anchor" id="contacts"></span>
+  <section>
+    <Contacts />
   </section>
 </template>
 
 <script setup>
 import About from '../components/About.vue'
 import Skills from '../components/Skills.vue'
+import Contacts from '../components/Contacts.vue'
 
 </script>
 
 
 <style lang="scss" scoped>
+.anchor {
+  position: absolute;
+  transform: translateY(-25vh);
+}
 
 .spacer {
   aspect-ratio: 960/300;

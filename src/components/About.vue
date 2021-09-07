@@ -1,5 +1,4 @@
 <template>
-  <div></div>
   <div class="about">
     <Blob class="blob"/> 
     <div class="presentation">
@@ -34,6 +33,7 @@ import Blob from '../components/Blob.vue'
     padding: 0 2rem;
     h2 {
       font-size: 3rem;
+      margin: 1.5rem 0;
     }
 
     a {

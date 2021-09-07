@@ -1,4 +1,4 @@
-// To stop vetur warning when opening VSC
+// The following stops the vetur warning when opening VSC
 {
   "include": [
     "./src/**/*"

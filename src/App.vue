@@ -1,12 +1,14 @@
 <template>
   <Navbar href="home"/>
   <router-view></router-view>
-  <footer>Copyright ©2021 by Bak Sanou.</footer>
+  <Footer/>
+
 </template>
 
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Home from './views/Home.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <style>
@@ -34,11 +36,6 @@ html, body {
   color: var(--color-ivory);
 
   /* margin-top: 2rem; */
-}
-
-footer {
-  margin-top: 4rem;
-  padding: 2rem 0;
 }
 
 </style>

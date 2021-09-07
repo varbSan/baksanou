@@ -13,7 +13,7 @@
       <a href="#experience">Experience</a>
     </div> -->
     <div>
-      <a href="#contact">Contact</a>
+      <a href="#contacts">Contact</a>
     </div>
   </div>
 </template>
