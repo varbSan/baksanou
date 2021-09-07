@@ -2,7 +2,7 @@
   <div class="navbar" id="navbar">
     <nav>
       <div class="title" @click="goTop" href="#navbar">
-        <img src="../assets/variable-logo.svg" alt="" width="60"/>
+        <img src="../assets/logos/logo-variable.svg" alt="" width="60"/>
         <h1>Variable</h1>
       </div>
       <NavLinks/>

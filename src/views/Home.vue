@@ -8,7 +8,8 @@
   <div class="spacer layer1"></div>
   <span class="anchor" id="projects"></span>
   <section>
-    Projects Component:<br />
+    <Projects/>
+    <!-- Projects Component:<br />
     - Slider<br />
     - Project picture<br />
     - Project description<br />
@@ -17,7 +18,7 @@
     - link<br />
     - challenges<br />
     - tech stack<br />
-    - github link<br />
+    - github link<br /> -->
   </section>
 
   <div class="spacer layer2"></div>
@@ -37,6 +38,7 @@
 import About from '../components/About.vue'
 import Skills from '../components/Skills.vue'
 import Contacts from '../components/Contacts.vue'
+import Projects from '../components/Projects.vue'
 
 </script>
 

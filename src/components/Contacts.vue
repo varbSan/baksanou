@@ -3,17 +3,17 @@
   <div class="contacts">
     <div class="contact">
       <a href="https://github/varbSan" target="_blank">
-        <img class="logo" src="../assets/github-logo.svg" alt="Github">
+        <img class="logo" src="../assets/logos/logo-github.svg" alt="Github">
       </a>
     </div>
     <div class="contact">
       <a href="https://www.linkedin.com/in/bak-sanou-61027b66/" target="_blank">
-        <img class="logo" src="../assets/linkedin-logo.svg" alt="LinkedIn">
+        <img class="logo" src="../assets/logos/logo-linkedin.svg" alt="LinkedIn">
       </a>
     </div>
     <div class="contact">
       <a href="https://twitter/VarbSan/" target="_blank">
-        <img class="logo" src="../assets/twitter-logo.svg" alt="Twitter">
+        <img class="logo" src="../assets/logos/logo-twitter.svg" alt="Twitter">
       </a>
     </div>
   
