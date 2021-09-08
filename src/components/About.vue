@@ -20,7 +20,6 @@
 
 <script setup>
 import { ref } from '@vue/reactivity'
-import { onMounted } from '@vue/runtime-core'
 import Blob from '../components/Blob.vue'
 
 const proTitles = ref(['Web Developer', 'Constant Learner', 'Vue.js Enthusiast'])

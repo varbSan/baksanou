@@ -43,10 +43,10 @@ function scrollFunction() {
 .title {
 
   display: flex;
-  padding-left: 1rem;
   transition: all 200ms;
   cursor: pointer;
-
+  text-decoration-line: overline underline;
+  text-underline-offset: 4px;
   &:hover, &active {
     font-weight: bolder;
     text-shadow:  0rem 0rem 1px var(--color-ivory);
@@ -65,6 +65,9 @@ nav {
 
   h1 {
     margin-left: 1.2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+
     align-items: center;
   }
 

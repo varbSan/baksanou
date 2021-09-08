@@ -37,14 +37,14 @@
         color: inherit;
         text-decoration: none;
         transition: all 200ms;
+        font-weight: bold;
 
-        @media screen and (min-width: 600px) {
-          &:hover {
-            font-weight: bold;
-            transform: scale(1.1);
-            text-shadow:  0rem 0rem 1px var(--color-ivory);
-          }          
-        }
+      }
+      @media screen and (min-width: 600px) {
+        &:hover {
+          transform: scale(1.1);
+          text-shadow:  0rem 0rem 1px var(--color-ivory);
+        }          
       }
     }
 
