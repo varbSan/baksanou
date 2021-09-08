@@ -65,7 +65,7 @@
       </a>
     </div>
     <div class="project">
-      <a href="https://citizencult.com/" target="_blank">
+      <a href="http://citizencult.com/" target="_blank">
         <img class="screenshot" src="../assets/screenshots/ss-citizencult.png" alt="Citizen Cult"><br>
         <span class="project-date">2019</span>
         <h3 class="project-name">Citizen Cult</h3>
