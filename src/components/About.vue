@@ -3,7 +3,9 @@
     <Blob class="blob"/> 
     <div class="presentation">
       <h3>Hi, I'm Bakary</h3>
-      <h2>Web Developer</h2>
+      <transition name="slide-fade">
+        <h2>{{proTitle.title}}</h2>
+      </transition>
       <p>
         I thrive working with the Vue.js framework and its ecosystem. 💚<br>
         That said, I identify as a variable developer. I am willing to work with any technology! 
@@ -17,11 +19,31 @@
 </template>
 
 <script setup>
+import { ref } from '@vue/reactivity'
+import { onMounted } from '@vue/runtime-core'
 import Blob from '../components/Blob.vue'
+
+const proTitles = ref(['Web Developer', 'Constant Learner', 'Vue.js Enthusiast'])
+const proTitle = ref({title:'Web Developer', index:0})
+
+let count = 0
+setInterval(() => {
+  proTitles.value.forEach((title , index) => {
+    if(index === count) {
+      proTitle.value.title = title 
+      proTitle.value.index = index
+    }
+  })
+  count++
+  if(count >= proTitles.value.length ) {
+    count = 0
+  }
+}, 2000)
 
 </script>
 
 <style lang="scss" scoped>
+
 .about {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));

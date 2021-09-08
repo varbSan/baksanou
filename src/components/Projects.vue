@@ -116,8 +116,8 @@
     transition: all 200ms;
     box-shadow: 0rem 0rem .5rem var(--color-pine-green);
 
-    &:hover {
-      @media screen and (hover:hover) {
+    @media screen and (min-width: 600px) {
+      &:hover {
         transform: scale(1.02);
         box-shadow: 0rem 0rem 1rem var(--color-polished-pine);
       }      
