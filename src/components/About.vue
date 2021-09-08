@@ -10,7 +10,7 @@
       </p>
       <p>
         If you like this portfolio, reach out to me on <a href="https://www.linkedin.com/in/bak-sanou-61027b66/" target="_blank">Linkedin</a>.
-        <br>I am always available for a good chat around a cup of coffee. 😉
+        <br>I am always available for a good chat. 😉
       </p>
     </div>
   </div>

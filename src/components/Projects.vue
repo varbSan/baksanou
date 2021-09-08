@@ -98,10 +98,13 @@
 }
 .projects {
   display: grid;
-  padding: 0 2rem;
+  padding: 0 1rem;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 1rem;
+  @media screen and (min-width: 600px){
+    padding: 0 3rem;
+  }
   .project {
     display: grid;
     align-items: start;
@@ -121,6 +124,7 @@
     }
 
     &-description {
+      font-size: .7rem;
       text-align: left;
       padding: 0 1rem;
       font-weight: 400;

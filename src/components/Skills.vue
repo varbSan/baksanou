@@ -22,7 +22,7 @@
     <div class="skill">
       <a href="https://sass-lang.com/" target="_blank">
         <img class="logo" src="../assets/logos/logo-sass.svg" alt="Sass"><br>
-        <span class="skill-name">Sass</span>
+        <span class="skill-name">Sass:<br>Scss</span>
       </a>
     </div>
     <div class="skill">
