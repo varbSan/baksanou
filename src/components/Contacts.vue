@@ -2,7 +2,7 @@
   <h2 class="title">Contacts</h2>
   <div class="contacts">
     <div class="contact">
-      <a href="https://github/varbSan" target="_blank">
+      <a href="https://github.com/varbSan" target="_blank">
         <img class="logo" src="../assets/logos/logo-github.svg" alt="Github">
       </a>
     </div>
@@ -12,7 +12,7 @@
       </a>
     </div>
     <div class="contact">
-      <a href="https://twitter/VarbSan/" target="_blank">
+      <a href="https://twitter.com/VarbSan/" target="_blank">
         <img class="logo" src="../assets/logos/logo-twitter.svg" alt="Twitter">
       </a>
     </div>
